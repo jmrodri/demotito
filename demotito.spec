@@ -5,7 +5,7 @@
 
 
 Name: demotito
-Version: 0.1.1
+Version: 0.1.2
 Release: 1%{?dist}
 
 Summary: Demo of Tito
@@ -41,4 +41,7 @@ install -m 755 world.py %{buildroot}%{_tmppath}/world.py
 %{_tmppath}/world.py*
 
 %changelog
+* Wed Mar 16 2016 jesus m. rodriguez <jesusr@redhat.com> 0.1.2-1
+- new package built with tito
+
 
